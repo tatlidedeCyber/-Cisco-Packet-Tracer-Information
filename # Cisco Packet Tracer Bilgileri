@@ -1,0 +1,74 @@
+# Cisco Packet Tracer Bilgileri
+Bu depo, Cisco Packet Tracer ile ilgili öğrendiğim bilgileri ve örnek projeleri içerir. Aşağıda temel bilgiler ve soruların cevapları yer almaktadır.
+
+---
+
+## İçerik
+1. [Packet Tracer Nedir?](#1-packet-tracer-nedir)
+2. [Ağ Simülasyonu Nasıl Yapılır?](#2-ağ-simülasyonu-nasıl-yapılır)
+3. [Protokol Testleri ve Örnek Senaryolar](#3-protokol-testleri-ve-örnek-senaryolar)
+
+---
+
+### 1. Packet Tracer Nedir?
+Cisco Packet Tracer, ağ simülasyonları yapmak için kullanılan güçlü bir yazılımdır. Öğrencilere, eğitmenlere ve profesyonellere gerçek ağ ortamını simüle etme imkanı tanır.
+
+- **Temel Özellikler:**
+  - Ağ cihazlarının (router, switch, PC, sunucu vb.) yapılandırılmasını sağlar.
+  - Sanal bir ortamda protokolleri test etme olanağı sunar.
+  - Eğitim amaçlı laboratuvar çalışmaları için uygundur.
+  - Cisco sertifikasyonlarına hazırlıkta yardımcıdır (örneğin, CCNA).
+
+- **Faydaları:**
+  - Gerçek ekipman ihtiyacını ortadan kaldırır.
+  - Maliyetleri azaltır.
+  - Hata ayıklama ve sorun giderme pratikleri yapılabilir.
+
+---
+
+### 2. Ağ Simülasyonu Nasıl Yapılır?
+Cisco Packet Tracer ile bir ağ simülasyonu yapmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. **Cihazları Seçin:** Yazılım içerisindeki araç çubuğundan router, switch ve bilgisayar gibi cihazları seçin.
+2. **Topoloji Kurun:** Sürükle ve bırak yöntemiyle cihazları çalışma alanına yerleştirin.
+3. **Kabloları Bağlayın:** Uygun portları kullanarak cihazlar arasında bağlantılar oluşturun.
+4. **Konfigürasyon Yapın:**
+   - CLI (Command Line Interface) kullanarak cihazları yapılandırın.
+   - IP adreslerini ve diğer ağ ayarlarını belirleyin.
+5. **Paket Akışını Test Edin:**
+   - Ping veya traceroute komutlarıyla bağlantıların çalıştığını kontrol edin.
+   - Paketlerin kaynağı, hedefi ve rotasını izleyin.
+
+---
+
+### 3. Protokol Testleri ve Örnek Senaryolar
+Packet Tracer, birçok ağ protokolünü destekler ve test etme olanağı sağlar. İşte bazı örnekler:
+
+#### **a. OSPF Protokolü Testi**
+- **Senaryo:** Birden fazla router arasında bağlantıyı optimize etmek.
+- **Adımlar:**
+  1. Router'lar arasında bağlantı kurun.
+  2. CLI kullanarak OSPF protokolünü etkinleştirin.
+  3. IP adreslerini ve ağ numaralarını yapılandırın.
+  4. OSPF durumunu ve rotalarını kontrol edin.
+
+#### **b. VLAN Yapılandırması**
+- **Senaryo:** Bir switch üzerinde farklı VLAN'lar oluşturma ve izole trafik sağlama.
+- **Adımlar:**
+  1. Switch üzerinde VLAN'ları tanımlayın.
+  2. Portları belirli VLAN'lara atayın.
+  3. VLAN'lar arasında router kullanarak iletişimi sağlayın.
+
+#### **c. Ağ Güvenliği**
+- **Senaryo:** Bir firewall cihazı ekleyerek güvenlik politikalarını test etme.
+- **Adımlar:**
+  1. Firewall cihazını topolojiye ekleyin.
+  2. ACL (Access Control List) kurallarını yapılandırarak trafik filtreleyin.
+  3. Simülasyon modunda paket akışını gözlemleyin.
+
+---
+
+### Sonuç
+Cisco Packet Tracer, ağ mühendisliği ve güvenliği konularında öğrenme ve uygulama yapmak için güçlü bir araçtır. Bu bilgileri derleyerek, ağ teknolojilerine ilgi duyan kişilerle paylaşmayı amaçlıyorum. Yeni bilgiler ve örnek projeler eklenmeye devam edecek!
+
+---
